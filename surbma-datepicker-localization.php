@@ -3,9 +3,8 @@
 /*
 Plugin Name: Surbma - Datepicker fordítás Gravity Forms űrlapokhoz
 Plugin URI: http://premiumwp.hu/
-GitHub Plugin URI: Surbma/surbma-datepicker-localization
 Description: Ezzel a bővítménnyel a datepicker dátum mező a weboldal beállításaiban megadott nyelven jelenik meg a Gravity Forms űrlapoknál.
-Version: 1.1.1
+Version: 1.1.2
 Author: Surbma
 Author URI: http://surbma.hu/
 License: GPL2
