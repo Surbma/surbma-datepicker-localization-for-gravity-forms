@@ -1,4 +1,4 @@
-Surbma - Datepicker fordítás Gravity Forms űrlapokhoz
+Surbma - Datepicker localization for Gravity Forms
 ==============================
 
-Ezzel a bővítménnyel a datepicker dátum mező a weboldal beállításaiban megadott nyelven jelenik meg a Gravity Forms űrlapoknál.
+Localize the Datepicker field with this plugin's automatic localization.

@@ -1,17 +1,31 @@
 <?php
 
 /*
-Plugin Name: Surbma - Datepicker fordítás Gravity Forms űrlapokhoz
-Plugin URI: http://premiumwp.hu/
-Description: Ezzel a bővítménnyel a datepicker dátum mező a weboldal beállításaiban megadott nyelven jelenik meg a Gravity Forms űrlapoknál.
-Version: 1.1.2
+Plugin Name: Surbma - Datepicker localization for Gravity Forms
+Plugin URI: http://surbma.hu/wordpress-bovitmenyek/
+Description: Localize the Datepicker field with this plugin's automatic localization.
+
+Version: 1.2.0
+
 Author: Surbma
 Author URI: http://surbma.hu/
-License: GPL2
+
+License: GPLv2
+
+Text Domain: surbma-datepicker-localization
+Domain Path: /languages/
 */
 
-function surbma_enqueue_datepicker_script( $form, $is_ajax ) {
-	wp_enqueue_script( 'surbma-datepicker-local', plugins_url( '', __FILE__ ) . '/languages/jquery.ui.datepicker-' . get_bloginfo('language') . '.js' );
+// Localization
+function surbma_datepicker_localization_init() {
+	load_plugin_textdomain( 'surbma-datepicker-localization', false, dirname( plugin_basename( __FILE__ ) . '/languages/' ) );
 }
-add_action( 'gform_enqueue_scripts', 'surbma_enqueue_datepicker_script', 10, 2 );
+add_action( 'init', 'surbma_datepicker_localization_init' );
+
+// Loading the actual js file
+// All datepicker js files can be found here: https://github.com/jquery/jquery-ui/tree/master/ui/i18n
+function surbma_datepicker_localization_enqueue_script( $form, $is_ajax ) {
+	wp_enqueue_script( 'surbma-datepicker-localization', plugins_url( '', __FILE__ ) . '/js/datepicker-' . substr( get_locale(), 0, 2 ) . '.js' );
+}
+add_action( 'gform_enqueue_scripts', 'surbma_datepicker_localization_enqueue_script', 10, 2 );
 
