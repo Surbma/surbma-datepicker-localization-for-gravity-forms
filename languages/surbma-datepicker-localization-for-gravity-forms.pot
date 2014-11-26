@@ -1,0 +1,36 @@
+# Copyright (C) 2014 Surbma - Datepicker localization for Gravity Forms
+# This file is distributed under the same license as the Surbma - Datepicker localization for Gravity Forms package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Surbma - Datepicker localization for Gravity Forms "
+"1.2.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/surbma-datepicker-"
+"localization-for-gravity-forms\n"
+"POT-Creation-Date: 2014-11-26 11:40:03+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#. Plugin Name of the plugin/theme
+msgid "Surbma - Datepicker localization for Gravity Forms"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://surbma.com/wordpress-plugins/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Localize the Datepicker field with this plugin's automatic localization."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Surbma"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://surbma.com/"
+msgstr ""
