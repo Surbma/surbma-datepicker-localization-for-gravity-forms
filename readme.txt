@@ -1,14 +1,14 @@
 === Plugin Name ===
 Contributors: Surbma
-Donate link: http://example.com/
+Donate link: http://surbma.com/
 Tags: datepicker, gravityforms, gravity forms
 Requires at least: 3.0.1
 Tested up to: 4.0.1
-Stable tag: 1.2.0
+Stable tag: 1.2.1
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Localize the Datepicker field with this plugin's automatic localization.
+Localize the Gravity Forms Datepicker fields with this plugin's automatic localization.
 
 == Description ==
 
@@ -31,6 +31,10 @@ No. It is working only with [Gravity Forms](http://surbma.hu/go/gravityforms/) (
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 1.2.1 =
+* Changed donate link.
+* Changed short description.
 
 = 1.2.0 =
 * First commit to the official WordPress repo.
