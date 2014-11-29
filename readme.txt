@@ -1,10 +1,10 @@
-=== Plugin Name ===
+=== Surbma - Datepicker localization for Gravity Forms ===
 Contributors: Surbma
 Donate link: http://surbma.com/
 Tags: datepicker, gravityforms, gravity forms
-Requires at least: 3.0.1
-Tested up to: 4.0.1
-Stable tag: 1.2.2
+Requires at least: 3.0
+Tested up to: 4.0
+Stable tag: 1.2.3
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -32,14 +32,17 @@ It is the reverse version of my last name. ;)
 
 == Changelog ==
 
+= 1.2.3 =
+- Fixed readme.txt
+
 = 1.2.2 =
-* Changed description and installation texts.
-* Added pot file for translations.
-* Added hungarian translation.
+- Changed description and installation texts.
+- Added pot file for translations.
+- Added hungarian translation.
 
 = 1.2.1 =
-* Changed donate link.
-* Changed short description.
+- Changed donate link.
+- Changed short description.
 
 = 1.2.0 =
-* First commit to the official WordPress repo.
+- First commit to the official WordPress repo.
