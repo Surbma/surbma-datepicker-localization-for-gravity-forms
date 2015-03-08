@@ -5,7 +5,7 @@ Plugin Name: Surbma - Datepicker localization for Gravity Forms
 Plugin URI: http://surbma.com/wordpress-plugins/
 Description: Localize the Datepicker field with this plugin's automatic localization.
 
-Version: 1.2.5
+Version: 1.3.0
 
 Author: Surbma
 Author URI: http://surbma.com/
@@ -15,6 +15,11 @@ License: GPLv2
 Text Domain: surbma-datepicker-localization-for-gravity-forms
 Domain Path: /languages/
 */
+
+// Prevent direct access to the plugin
+if ( !defined( 'ABSPATH' ) ) {
+	die( 'Good try! :)' );
+}
 
 // Localization
 function surbma_datepicker_localization_for_gravity_forms_init() {
