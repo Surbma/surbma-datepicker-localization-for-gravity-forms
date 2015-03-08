@@ -3,8 +3,8 @@ Contributors: Surbma
 Donate link: http://surbma.com/
 Tags: datepicker, gravityforms, gravity forms
 Requires at least: 3.0
-Tested up to: 4.0
-Stable tag: 1.2.4
+Tested up to: 4.1
+Stable tag: 1.2.5
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,6 +31,11 @@ No. It is working only with <a href="http://surbma.hu/go/gravityforms/" target="
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 1.2.5 =
+
+- Fixed script enqueue. It is now sure to be after the datepicker script. (Thank you Vayu Robins!)
+- Checked to be compatible with WordPress 4.1 and Gravity Forms 1.9.
 
 = 1.2.4 =
 
