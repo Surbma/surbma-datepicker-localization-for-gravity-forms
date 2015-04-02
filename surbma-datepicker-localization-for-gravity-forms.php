@@ -5,7 +5,7 @@ Plugin Name: Surbma - Datepicker localization for Gravity Forms
 Plugin URI: http://surbma.com/wordpress-plugins/
 Description: Localize the Datepicker field with this plugin's automatic localization.
 
-Version: 1.3.0
+Version: 1.3.1
 
 Author: Surbma
 Author URI: http://surbma.com/
@@ -23,9 +23,9 @@ if ( !defined( 'ABSPATH' ) ) {
 
 // Localization
 function surbma_datepicker_localization_for_gravity_forms_init() {
-	load_plugin_textdomain( 'surbma-datepicker-localization-for-gravity-forms', false, dirname( plugin_basename( __FILE__ ) . '/languages/' ) );
+	load_plugin_textdomain( 'surbma-datepicker-localization-for-gravity-forms', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 }
-add_action( 'init', 'surbma_datepicker_localization_for_gravity_forms_init' );
+add_action( 'plugins_loaded', 'surbma_datepicker_localization_for_gravity_forms_init' );
 
 // Loading the actual js file
 // All datepicker js files can be found here: https://github.com/jquery/jquery-ui/tree/master/ui/i18n
