@@ -1,7 +1,7 @@
-=== Datepicker localization for Gravity Forms ===
+=== Surbma - Datepicker localization for Gravity Forms ===
 Contributors: Surbma
-Donate link: http://surbma.com/
-Tags: datepicker, gravityforms, gravity forms
+Donate link: http://surbma.com/donate/
+Tags: datepicker, gravityforms, gravity forms, localization
 Requires at least: 4.0
 Tested up to: 4.9
 Stable tag: 1.3.1
@@ -16,7 +16,7 @@ Localize the <a href="http://surbma.hu/go/gravityforms/" target="_blank">Gravity
 
 == Installation ==
 
-1. Upload `surbma-datepicker-localizationfor-gravity-forms` folder to the `/wp-content/plugins/` directory
+1. Upload `surbma-datepicker-localization-for-gravity-forms` folder to the `/wp-content/plugins/` directory
 2. Activate the Surbma - Datepicker localization for Gravity Forms plugin through the 'Plugins' menu in WordPress
 3. That's it. :)
 
