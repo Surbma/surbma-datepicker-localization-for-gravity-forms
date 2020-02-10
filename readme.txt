@@ -1,10 +1,10 @@
-=== Surbma - Datepicker localization for Gravity Forms ===
-Contributors: Surbma
-Donate link: http://surbma.com/donate/
+=== Surbma | Datepicker localization for Gravity Forms ===
+Contributors: Surbma, CherryPickStudios
+Donate link: https://surbma.com/donate/
 Tags: datepicker, gravityforms, gravity forms, localization
-Requires at least: 4.0
-Tested up to: 4.9
-Stable tag: 1.3.1
+Requires at least: 5.1
+Tested up to: 5.3
+Stable tag: 2.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,25 +12,32 @@ Localize the Gravity Forms Datepicker fields with this plugin's automatic locali
 
 == Description ==
 
-Localize the <a href="http://surbma.hu/go/gravityforms/" target="_blank">Gravity Forms</a> (affiliate link) Datepicker field with this plugin's automatic localization. There is no need to do anything, just activate the plugin. The js file will load only with the <a href="http://surbma.hu/go/gravityforms/" target="_blank">Gravity Forms</a> (affiliate link) form, so there will be no unwanted extra load for your website.
+Localize the <a href="https://surbma.hu/go/gravityforms/" target="_blank">Gravity Forms</a> (affiliate link) Datepicker field with this plugin's automatic localization. There is no need to do anything, just activate the plugin. The js file will load only with the <a href="https://surbma.hu/go/gravityforms/" target="_blank">Gravity Forms</a> (affiliate link) form, so there will be no unwanted extra load for your website.
 
 == Installation ==
 
 1. Upload `surbma-datepicker-localization-for-gravity-forms` folder to the `/wp-content/plugins/` directory
-2. Activate the Surbma - Datepicker localization for Gravity Forms plugin through the 'Plugins' menu in WordPress
+2. Activate the Surbma | Datepicker localization for Gravity Forms plugin through the 'Plugins' menu in WordPress
 3. That's it. :)
 
 == Frequently Asked Questions ==
 
 = Is it working with other form management plugins? =
 
-No. It is working only with <a href="http://surbma.hu/go/gravityforms/" target="_blank">Gravity Forms</a> (affiliate link).
+No. It is working only with <a href="https://surbma.hu/go/gravityforms/" target="_blank">Gravity Forms</a> (affiliate link).
 
 = What does Surbma mean? =
 
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 2.0 =
+
+Release date: 2020-02-10
+
+- TWEAK - Tested with WordPress 5.3 version.
+- TWEAK - Updated to use a new way to deploy it to wp.org repo.
 
 = 1.3.1 =
 
